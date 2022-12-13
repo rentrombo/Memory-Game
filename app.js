@@ -62,3 +62,5 @@ function createBoard(){
        gridDisplay.appendChild(card)
     }
 }
+console.log(gridDisplay);
+createBoard()
