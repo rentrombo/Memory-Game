@@ -72,7 +72,7 @@ function checkMatch() {
     console.log('check for a match')
     if (cardsChosen[0] == cardsChosen[1]) {
         alert('You found a match!')
-        card[cardsChosenIds[0]].setAttribute('src', 'images/correct.jpg')
+        cards[cardsChosenIds[0]].setAttribute('src', 'images/correct.jpg')
     }
 }
 
