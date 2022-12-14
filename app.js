@@ -68,10 +68,11 @@ createBoard()
 
 function checkMatch() {
     const cards = document.querySelectorAll('#grid img')
+    console.log(cards)
     console.log('check for a match')
     if (cardsChosen[0] == cardsChosen[1]) {
         alert('You found a match!')
-        //card[]
+        card[cardsChosenIds[0]].setAttribute('src', 'images/correct.jpg')
     }
 }
 
