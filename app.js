@@ -65,7 +65,7 @@ function createBoard(){
 }
 createBoard()
 
-function checkMatch{
+function checkMatch() {
     console.log('check for a match')
 }
 
